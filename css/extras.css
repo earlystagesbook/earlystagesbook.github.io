@@ -1,0 +1,79 @@
+p {
+    font-weight: 100;
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #c03e24 !important;
+}
+
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-weight: 100;
+}
+
+
+.top-bookcover {
+    vertical-align: top;
+}
+
+li {
+    font-weight: 100;
+}
+
+
+.buy-btn {
+    background-color: #c03e24;
+}
+
+
+.buy-logos img {
+    width: 50%;
+}
+
+
+.masthead-title {
+    display: none;
+}
+
+
+.quotes {
+    margin-top: 3em;
+}
+
+#about .bookcover {
+  margin-top: 1em;
+}
+
+
+@media (min-width: 992px) {
+.buy-logos img {
+    width: 100%;
+}
+.buy-logos--gumroad {
+    margin-top: 28px;
+}
+.masthead-title {
+    display: block;
+}
+.quotes {
+    margin-top: 0px;
+}
+
+#about .bookcover {
+  margin-top: .3em;
+}
+
+}
+
+@media (min-width: 1200px) {
+.buy-logos--gumroad {
+    margin-top: 35px;
+}
+}
+
+#preorder {
+    padding-bottom: 6em;
+    padding-top: 7em;
+}
